@@ -1,4 +1,4 @@
-import type { Story } from "@ladle/react";
+import type { Story } from "@lucamatei/ladle--react";
 
 declare const __filename_root: string;
 declare const __dirname_root: string;

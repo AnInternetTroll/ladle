@@ -1,5 +1,5 @@
-import { useLadleContext, ActionType, ThemeState, action } from "@ladle/react";
-import type { Story } from "@ladle/react";
+import { useLadleContext, ActionType, ThemeState, action } from "@lucamatei/ladle--react";
+import type { Story } from "@lucamatei/ladle--react";
 
 const empty = "";
 export const Responsive: Story = () => {

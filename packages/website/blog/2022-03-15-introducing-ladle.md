@@ -66,7 +66,7 @@ The new set of web tools is coming and brings huge performance wins. Ladle is us
 mkdir my-ladle
 cd my-ladle
 pnpm init
-pnpm add @ladle/react react react-dom
+pnpm add @lucamatei/ladle--react react react-dom
 mkdir src
 echo "export const World = () => <p>Hey</p>;" > src/hello.stories.tsx
 pnpm ladle serve

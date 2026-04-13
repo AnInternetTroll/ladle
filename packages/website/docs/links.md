@@ -7,8 +7,8 @@ You can link story from another story:
 
 ```tsx
 import * as React from "react";
-import { linkTo } from "@ladle/react";
-import type { Story } from "@ladle/react";
+import { linkTo } from "@lucamatei/ladle--react";
+import type { Story } from "@lucamatei/ladle--react";
 
 export const Link: Story = () => {
   return <button onClick={linkTo("controls--first")}>Controls</button>;

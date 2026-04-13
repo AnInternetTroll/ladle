@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { Story } from "@ladle/react";
+import type { Story } from "@lucamatei/ladle--react";
 
 export const BlueTinyCat: Story = () => {
   return <h1>Blue Tiny Cat</h1>;

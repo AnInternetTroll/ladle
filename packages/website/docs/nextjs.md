@@ -70,7 +70,7 @@ In the Stories file, using `useRouter()` of `next/navigation` may cause the foll
 You could solve it by setting [Providers](/docs/providers).
 
 ```tsx title=".ladle/components.tsx"
-import { GlobalProvider } from "@ladle/react";
+import { GlobalProvider } from "@lucamatei/ladle--react";
 import { AppRouterContext } from "next/dist/shared/lib/app-router-context.shared-runtime";
 
 export const Provider: GlobalProvider = ({ children }) => {
@@ -106,7 +106,7 @@ export const Provider: GlobalProvider = ({ children }) => {
 Or if you want to set it in each file, you could use [Decorators](/docs/decorators).
 
 ```tsx title="./Hello.stories.tsx"
-import type { StoryDefault, Story } from "@ladle/react";
+import type { StoryDefault, Story } from "@lucamatei/ladle--react";
 import { AppRouterContext } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import { useRouter } from "next/navigation";
 

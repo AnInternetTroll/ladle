@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
-// @ts-ignore Cannot find module '@ladle/react/meta' or its corresponding type declarations.
-import getMeta from "@ladle/react/meta";
+// @ts-ignore Cannot find module '@lucamatei/ladle--react/meta' or its corresponding type declarations.
+import getMeta from "@lucamatei/ladle--react/meta";
 
 test("provider passes context and renders wrapper", async ({ page }) => {
   await page.goto("/");

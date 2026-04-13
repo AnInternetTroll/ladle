@@ -1,4 +1,4 @@
-import type { Story } from "@ladle/react";
+import type { Story } from "@lucamatei/ladle--react";
 
 export const First: Story = () => {
   // not rendering a text since fonts render differently in different operation systems

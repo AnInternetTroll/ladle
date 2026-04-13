@@ -1,5 +1,5 @@
-import type { Story } from "@ladle/react";
-import { action, linkTo } from "@ladle/react";
+import type { Story } from "@lucamatei/ladle--react";
+import { action, linkTo } from "@lucamatei/ladle--react";
 
 export const Controls: Story<{
   label: string;

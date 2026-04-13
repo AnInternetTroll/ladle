@@ -1,4 +1,4 @@
-# @ladle/react
+# @lucamatei/ladle--react
 
 ## 5.1.1
 
@@ -683,7 +683,7 @@
 
 - [#191](https://github.com/tajo/ladle/pull/191) [`3209be6`](https://github.com/tajo/ladle/commit/3209be62042ffe700f505ca84e468998288e44bd) Thanks [@tajo](https://github.com/tajo)! - Upgrade to Vite 3. It should not be a big breaking change for Ladle, but we expose the whole `vite.config.js` so you might run into some deprecations. [Read more](https://vitejs.dev/blog/announcing-vite3.html) to see if this could impact you.
 
-  Vite 3 also ships as ESM module. That forces us to stop distributing `@ladle/react-cjs`. We used it for our internal yarn pnp setup but we don't need it anymore. Pure ESM everywhere!
+  Vite 3 also ships as ESM module. That forces us to stop distributing `@lucamatei/ladle--react-cjs`. We used it for our internal yarn pnp setup but we don't need it anymore. Pure ESM everywhere!
 
 ### Minor Changes
 
@@ -729,7 +729,7 @@
 
 ### Patch Changes
 
-- [#173](https://github.com/tajo/ladle/pull/173) [`ddaebfd`](https://github.com/tajo/ladle/commit/ddaebfd6e0042285d3f225bc4a8a25ba0f8d3bbf) Thanks [@GeorgeNagel](https://github.com/GeorgeNagel)! - Add engine settings and node restriction for @ladle/react so that install fails for users when node < 16.x
+- [#173](https://github.com/tajo/ladle/pull/173) [`ddaebfd`](https://github.com/tajo/ladle/commit/ddaebfd6e0042285d3f225bc4a8a25ba0f8d3bbf) Thanks [@GeorgeNagel](https://github.com/GeorgeNagel)! - Add engine settings and node restriction for @lucamatei/ladle--react so that install fails for users when node < 16.x
 
 * [#170](https://github.com/tajo/ladle/pull/170) [`04714c9`](https://github.com/tajo/ladle/commit/04714c9f5343cef539cac2c44b58e3b7d5255479) Thanks [@GeorgeNagel](https://github.com/GeorgeNagel)! - Enforce that Node version >= v16.0.0. This causes a loud failure when installing ladle with an old version of Node, as opposed to silently failing and causing difficult-to-diagnose bugs.
 
@@ -786,7 +786,7 @@
 - [#153](https://github.com/tajo/ladle/pull/153) [`05bee5d`](https://github.com/tajo/ladle/commit/05bee5d155703fdbd57e4984e21eae6e20a24184) Thanks [@tajo](https://github.com/tajo)! - - Ladle now loads top-level `vite.config.js/ts/mjs` and uses all its options.
   - All Vite related options from `config.mjs` removed and an error will be thrown, use `vite.config.js` instead.
   - `enableFlow` option removed, you can create your own plugin (check our e2e/flow test).
-  - Programmatic API imports changed to `@ladle/react/serve` and `@ladle/react/build`.
+  - Programmatic API imports changed to `@lucamatei/ladle--react/serve` and `@lucamatei/ladle--react/build`.
   - `--out` renamed to `--outDir` to mimic Vite configuration, added `-o` alias, `outDir` moved to top-level in `config.mjs`.
   - `--port` has alias `-p`, `port` moved to top-level in `config.mjs`.
   - `vite.config.js` can be customized through `viteConfig` and `--viteConfig`.

@@ -23,7 +23,7 @@ Any CSS file ending with `.module.css` is considered a [CSS modules file](https:
 ```
 
 ```tsx
-import type { Story } from "@ladle/react";
+import type { Story } from "@lucamatei/ladle--react";
 import classes from "./example.module.css";
 
 export const MyStory: Story = () => {
@@ -118,7 +118,7 @@ and create a global provider:
 import { Provider as StyletronProvider } from "styletron-react";
 import { Client as Styletron } from "styletron-engine-monolithic";
 import { LightTheme, DarkTheme, BaseProvider } from "baseui";
-import type { GlobalProvider } from "@ladle/react";
+import type { GlobalProvider } from "@lucamatei/ladle--react";
 
 const engine = new Styletron();
 

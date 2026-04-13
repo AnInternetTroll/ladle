@@ -22,10 +22,10 @@ Ladle uses [jsx-runtime](https://reactjs.org/blog/2020/09/22/introducing-the-new
 
 ## Exported Types
 
-You can import [many types](https://github.com/tajo/ladle/blob/main/packages/ladle/lib/app/exports.ts#L52-L115) from `@ladle/react` to improve your development experience:
+You can import [many types](https://github.com/tajo/ladle/blob/main/packages/ladle/lib/app/exports.ts#L52-L115) from `@lucamatei/ladle--react` to improve your development experience:
 
 ```ts
-import type { StoryDefault, Story } from "@ladle/react";
+import type { StoryDefault, Story } from "@lucamatei/ladle--react";
 
 type Props = { label: string };
 

@@ -1,4 +1,4 @@
-import type { Story } from "@ladle/react";
+import type { Story } from "@lucamatei/ladle--react";
 import { Button } from "baseui/button";
 import { StarRating } from "baseui/rating";
 import { useState } from "react";

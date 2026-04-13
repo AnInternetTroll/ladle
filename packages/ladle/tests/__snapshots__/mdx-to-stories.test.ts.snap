@@ -3,7 +3,7 @@
 exports[`<Meta /> component works 1`] = `
 "/*@jsxRuntime automatic*/
 /*@jsxImportSource react*/
-import { Meta } from "@ladle/react";
+import { Meta } from "@lucamatei/ladle--react";
 import Readme from "./README.md";
 function _createMdxContent(props) {
   const _components = {
@@ -24,7 +24,7 @@ MDXContent.storyName = "Documentation";"
 exports[`<Story /> component works 1`] = `
 "/*@jsxRuntime automatic*/
 /*@jsxImportSource react*/
-import { Story } from "@ladle/react";
+import { Story } from "@lucamatei/ladle--react";
 function _createMdxContent(props) {
   const _components = {
     code: "code",

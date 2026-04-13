@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import type { Story } from "@ladle/react";
-import { msw } from "@ladle/react";
+import type { Story } from "@lucamatei/ladle--react";
+import { msw } from "@lucamatei/ladle--react";
 import { fetchData } from "./utils";
 
 // @ts-ignore

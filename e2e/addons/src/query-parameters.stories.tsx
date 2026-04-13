@@ -1,4 +1,4 @@
-import type { Story } from "@ladle/react";
+import type { Story } from "@lucamatei/ladle--react";
 import { useEffect, useState } from "react";
 
 export const QueryParameters: Story = () => {

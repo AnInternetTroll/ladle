@@ -3,7 +3,7 @@ id: cli
 title: CLI
 ---
 
-`@ladle/react` provides a CLI so you can `serve` (dev) or `build` your application:
+`@lucamatei/ladle--react` provides a CLI so you can `serve` (dev) or `build` your application:
 
 ```bash
 Usage: ladle [options] [command]

@@ -28,7 +28,7 @@ exports[`Capital letters in story names converted into delimiters 1`] = `
   ],
   "storyParams": {},
   "storySource": "import * as React from "react";
-import type { Story } from "@ladle/react";
+import type { Story } from "@lucamatei/ladle--react";
 
 export const BlueTinyCat: Story = () => {
   return <h1>Blue Tiny Cat</h1>;
@@ -290,7 +290,7 @@ exports[`Single file with two stories 1`] = `
   ],
   "storyParams": {},
   "storySource": "import * as React from "react";
-import type { Story } from "@ladle/react";
+import type { Story } from "@lucamatei/ladle--react";
 
 export const Cat: Story = () => {
   return <h1>Cat</h1>;

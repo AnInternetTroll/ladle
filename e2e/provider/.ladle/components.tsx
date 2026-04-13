@@ -1,4 +1,4 @@
-import type { GlobalProvider, SourceHeader } from "@ladle/react";
+import type { GlobalProvider, SourceHeader } from "@lucamatei/ladle--react";
 import { createContext } from "react";
 
 export const MyContext = createContext("my-context");
