@@ -5,15 +5,9 @@
   "author": "Luca-Matei Pintilie <luca@lucamatei.com>",
   "license": "MIT",
   "type": "module",
-  "types": "./typings-for-build/app/exports.d.ts",
+  "types": "./lib/app/exports.ts",
   "exports": {
-    ".": {
-      "types": {
-        "import": "./typings-for-build/app/exports.d.ts",
-        "require": "./typings-for-build/app/exports.d.cts"
-      },
-      "default": "./lib/app/exports.ts"
-    },
+    ".": "./lib/app/exports.ts",
     "./serve": "./api/serve.js",
     "./preview": "./api/preview.js",
     "./build": "./api/build.js",
