@@ -1,8 +1,9 @@
-luca:
-  name: Luca-Matei Pintilie
-  title: Developer
-  url: https://lucamatei.com
-  image_url: https://lucamatei.com/favicon.png
-  email: luca@lucamatei.com
+vojtech:
+  name: Vojtech Miksu
+  title: Developer Platform, Uber
+  url: https://www.miksu.cz
+  image_url: https://miksu.cz/images/profile.jpg
+  email: vojtech@miksu.cz
   socials:
-    github: aninternettroll
+    x: vmiksu
+    github: tajo
