@@ -24,13 +24,11 @@ jobs:
         node-version: [24]
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 2
 
       - uses: pnpm/action-setup@v6
-        with:
-          version: 10
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v6
