@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { SourceMapGenerator } from "source-map";
-import { transformWithEsbuild } from "vite";
+import { transformWithOxc } from "vite";
 import { VFile } from "vfile";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
@@ -94,7 +94,7 @@ function mdxPlugin(opts) {
         // just using esbuild to compile JSX away
         if (!isDev) {
           return (
-            await transformWithEsbuild(code, filepath.replace(".mdx", ".jsx"), {
+            await transformWithOxc(code, filepath.replace(".mdx", ".jsx"), {
               jsx: "automatic",
             })
           ).code;
@@ -111,7 +111,7 @@ function mdxPlugin(opts) {
         }
         if (reactPluginTransform) {
           return await reactPluginTransform(
-            (await transformWithEsbuild(code, filename)).code,
+            (await transformWithOxc(code, filename)).code,
             filepath.replace(".mdx", ".jsx"),
           );
         }
