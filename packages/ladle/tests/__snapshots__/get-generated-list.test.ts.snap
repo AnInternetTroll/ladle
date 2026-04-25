@@ -37,11 +37,11 @@ export const args = {};
 export const argTypes = {};
 
 let fileSourceCodes = {
-  "3fd16523": \`import%20*%20as%20React%20from%20%22react%22%3B%0Aimport%20type%20%7B%20Story%20%7D%20from%20%22%40ladle%2Freact%22%3B%0A%0Aexport%20const%20BlueTinyCat%3A%20Story%20%3D%20()%20%3D%3E%20%7B%0A%20%20return%20%3Ch1%3EBlue%20Tiny%20Cat%3C%2Fh1%3E%3B%0A%7D%3B%0A%0Aexport%20const%20BigBarkingDog%3A%20Story%20%3D%20()%20%3D%3E%20%7B%0A%20%20return%20%3Ch1%3E%20Big%20Barking%20Dog%3C%2Fh1%3E%3B%0A%7D%3B%0A\`
+  "a405b51d": \`import%20*%20as%20React%20from%20%22react%22%3B%0Aimport%20type%20%7B%20Story%20%7D%20from%20%22%40lucamatei%2Fladle--react%22%3B%0A%0Aexport%20const%20BlueTinyCat%3A%20Story%20%3D%20()%20%3D%3E%20%7B%0A%20%20return%20%3Ch1%3EBlue%20Tiny%20Cat%3C%2Fh1%3E%3B%0A%7D%3B%0A%0Aexport%20const%20BigBarkingDog%3A%20Story%20%3D%20()%20%3D%3E%20%7B%0A%20%20return%20%3Ch1%3E%20Big%20Barking%20Dog%3C%2Fh1%3E%3B%0A%7D%3B%0A\`
 };
 export let storySource = {
-  "capitalization--big-barking-dog": fileSourceCodes["3fd16523"],
-  "capitalization--blue-tiny-cat": fileSourceCodes["3fd16523"]
+  "capitalization--big-barking-dog": fileSourceCodes["a405b51d"],
+  "capitalization--blue-tiny-cat": fileSourceCodes["a405b51d"]
 };
 
 export const errorMessage = '';
@@ -274,11 +274,11 @@ export const args = {};
 export const argTypes = {};
 
 let fileSourceCodes = {
-  "3a078f0b": \`import%20*%20as%20React%20from%20%22react%22%3B%0Aimport%20type%20%7B%20Story%20%7D%20from%20%22%40ladle%2Freact%22%3B%0A%0Aexport%20const%20Cat%3A%20Story%20%3D%20()%20%3D%3E%20%7B%0A%20%20return%20%3Ch1%3ECat%3C%2Fh1%3E%3B%0A%7D%3B%0A%0Aexport%20const%20Dog%3A%20Story%20%3D%20()%20%3D%3E%20%7B%0A%20%20return%20%3Ch1%3EDog%3C%2Fh1%3E%3B%0A%7D%3B%0A\`
+  "630a5268": \`import%20*%20as%20React%20from%20%22react%22%3B%0Aimport%20type%20%7B%20Story%20%7D%20from%20%22%40lucamatei%2Fladle--react%22%3B%0A%0Aexport%20const%20Cat%3A%20Story%20%3D%20()%20%3D%3E%20%7B%0A%20%20return%20%3Ch1%3ECat%3C%2Fh1%3E%3B%0A%7D%3B%0A%0Aexport%20const%20Dog%3A%20Story%20%3D%20()%20%3D%3E%20%7B%0A%20%20return%20%3Ch1%3EDog%3C%2Fh1%3E%3B%0A%7D%3B%0A\`
 };
 export let storySource = {
-  "animals--cat": fileSourceCodes["3a078f0b"],
-  "animals--dog": fileSourceCodes["3a078f0b"]
+  "animals--cat": fileSourceCodes["630a5268"],
+  "animals--dog": fileSourceCodes["630a5268"]
 };
 
 export const errorMessage = '';
