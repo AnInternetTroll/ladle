@@ -5,7 +5,8 @@
     "declaration": true,
     "emitDeclarationOnly": false,
     "declarationDir": "typings-for-build",
-    "outDir": "typings-for-build"
+    "outDir": "typings-for-build",
+    "rootDir": "."
   },
   "include": ["lib/**/*", "src/**/*"],
   "exclude": ["typings-for-build"]
