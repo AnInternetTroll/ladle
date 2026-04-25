@@ -38,7 +38,8 @@
     "e2e/*/.ladle/*",
     "e2e/*/src/*",
     "e2e/*/tests/*",
-    "type-tests/*"
+    "type-tests/*",
+    "global.d.ts"
   ],
   "exclude": ["packages/website/**", "packages/example/src/button.stories.js"]
 }

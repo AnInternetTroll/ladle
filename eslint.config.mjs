@@ -1,20 +1,21 @@
 import globals from "globals";
-import react from "eslint-plugin-react/configs/recommended.js";
+import react from "eslint-plugin-react";
 import prettier from "eslint-plugin-prettier/recommended";
 import eslint from "@eslint/js";
+import { defineConfig } from "eslint/config";
 import tseslint from "typescript-eslint";
 
-export default tseslint.config(
+export default defineConfig(
   eslint.configs.recommended,
-  ...tseslint.configs.recommended,
+  tseslint.configs.recommended,
   prettier,
-  react,
+  // react.configs.recommended,
   {
     languageOptions: {
       globals: {
         ...globals.browser,
         ...globals.node,
-      }
+      },
     },
     files: ["**/*.ts", "**/*.tsx", "**/*.js"],
     rules: {

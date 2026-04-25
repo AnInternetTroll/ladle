@@ -99,7 +99,7 @@ const storySort = (a: string, b: string) => {
 
 export const sortStories = (stories: string[], storyOrder: StoryOrder) => {
   const initialSort = stories.sort(storySort);
-  let configSort = [...initialSort];
+  let configSort: string[];
   if (Array.isArray(storyOrder)) {
     configSort = storyOrder;
   } else {
